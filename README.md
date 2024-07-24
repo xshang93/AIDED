@@ -1,5 +1,5 @@
 
-# MeltPool ML Training Workflow
+# AIDED Workflow
 
 This repository contains scripts for training a machine learning (ML) model to analyze melt pool images. The workflow involves preprocessing raw images, extracting features, managing invalid data, and finally, training the ML model.
 
