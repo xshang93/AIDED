@@ -9,15 +9,15 @@ This repository contains scripts for training a machine learning (ML) model to a
 - Python 3.x
 - Anaconda 24.1.2
 - Libraries: 
-**shutil**
-**ultralytics 8.2.2**
-**segment_anything ver.2023**
-**sklearn 1.4.2**
-**tensorflow 2.15.0**
+**shutil**,
+**ultralytics 8.2.2**,
+**segment_anything ver.2023**,
+**sklearn 1.4.2**,
+**tensorflow 2.15.0**,
+**pymoo 0.6.1.1**: https://pymoo.org/
 - Pretrained models:
-**YOLO v8:** ./pre_trained_models/yolov8_best.pt
+**YOLO v8:** ./pre_trained_models/yolov8_best.pt,
 **Segment anything model:** Obtain from here https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth
-**pymoo 0.6.1.1**: 
 
 ## Dataset and input files
 
