@@ -85,7 +85,7 @@ def print_time(solution):
     angle = hs2angle.predict([[width,solution[1],solution[3],height]])
     
     # calculate the number of tracks in each layer
-    num_tracks = round((cube_w-width*scale*np.cos(math.radians(angle)))/(width**scale*solution[3])+1)
+    num_tracks = round((cube_w-width*scale*np.cos(math.radians(angle)))/(width*scale*solution[3])+1)
     # calculate the number of layers
     # _,layer_height,_,_,_ = pred_2d_surface(solution[0],solution[1],solution[2],solution[3],num_tracks,opt=True,save_path=save_path)
     try:
